@@ -1,0 +1,14 @@
+{
+  "name": "autonomous-research-agent-mern",
+  "version": "1.0.0",
+  "description": "Autonomous AI Research Agent powered by LangChain, Groq, Tavily, Express, MongoDB & React",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
